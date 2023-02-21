@@ -6,6 +6,10 @@ import ContactTable from "../ContactTable";
 
 import CluarSync from "../../components/cluar/Sync";
 
+import Learning from "../../components/Learning"
+
+import CategorySelect from "../../components/CategorySelect"
+
 import "./index.less";
 
 const { Title } = Typography;
@@ -33,6 +37,9 @@ function DashboardContainer() {
       <Title level={2}>Dashboard</Title>
       <Tabs items={item} />
       <CluarSync />
+      <CategorySelect/>
+      <Learning/>
+      
     </div>
   );
 }
