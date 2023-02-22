@@ -163,7 +163,7 @@ window.cluarData = {
     },
     "config": {
         "mapbox": {"dark": false},
-        "name": "Website Name",
+        "name": "Netbase",
         "services": {"api": "http://localhost:9000/services/"},
         "url": "http://localhost:3000"
     }

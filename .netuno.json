@@ -10,7 +10,7 @@
                 "cluar": {
                     "website": {
                         "url": "http://localhost:3000",
-                        "name": "Website Name",
+                        "name": "Netbase",
                         "analytics": null,
                         "mapbox": {
                             "dark": false,
@@ -76,7 +76,7 @@
                 "cluar": {
                     "website": {
                         "url": "http://localhost:3000",
-                        "name": "Website Name",
+                        "name": "Netbase",
                         "analytics": null,
                         "mapbox": {
                             "dark": false,
