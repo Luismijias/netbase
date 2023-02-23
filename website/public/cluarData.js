@@ -153,13 +153,13 @@ window.cluarData = {
     ],
     "configuration": {
         "GENERIC": {
-            "footer-phone": "99999 9999",
+            "footer-phone": "005511 96800-7070",
             "map-latitude": "38.7038342",
-            "footer-address": "Netuno.org, Cluar CMS\r\nOpen Source",
+            "footer-address": "https://github.com/Luismijias/netbase",
             "map-longitude": "-8.9698548"
         },
-        "PT": {"footer-email": "meu@e-mail.org"},
-        "EN": {"footer-email": "my@e-mail.org"}
+        "PT": {"footer-email": "luismijias@gmail.com"},
+        "EN": {"footer-email": "luismijias@gmail.com"}
     },
     "config": {
         "mapbox": {"dark": false},
