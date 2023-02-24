@@ -37,7 +37,7 @@ window.cluarData = {
             "title": "Principal",
             "structure": [
                 {
-                    "image": "default-banner-background-SBiogyY7.jpg",
+                    "image": "astronauta-A5KMA23D.jpg",
                     "uid": "5126f3bb-51d1-489e-89dc-08087ed38e5e",
                     "sorter": 10,
                     "image_alt": "",
@@ -93,7 +93,7 @@ window.cluarData = {
             "title": "Home",
             "structure": [
                 {
-                    "image": "default-banner-background-QBEnNGtC.jpg",
+                    "image": "astronauta-cfCwbAFD.jpg",
                     "uid": "9302bc90-d687-494d-bfc0-b4aeff4df09e",
                     "sorter": 10,
                     "image_alt": "",
