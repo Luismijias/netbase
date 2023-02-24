@@ -50,7 +50,7 @@ window.cluarData = {
                     "title": "Prestes a Voar",
                     "type": "default",
                     "actions": [],
-                    "content": "<p>Aqui \u00E9 onde voc\u00EA lan\u00E7a websites em uma outra dimens\u00E3o.<\/p>"
+                    "content": "<p><span style=\"font-family: Verdana;\"><b>Aqui \u00E9 onde voc\u00EA lan\u00E7a websites em uma outra dimens\u00E3o.<\/b><\/span><\/p>"
                 },
                 {
                     "image": "",
@@ -106,7 +106,7 @@ window.cluarData = {
                     "title": "Ready to Fly",
                     "type": "default",
                     "actions": [],
-                    "content": "<p>Here is where you launch websites into another dimension.<\/p>"
+                    "content": "<p><span style=\"font-family: Verdana;\">Here is where you launch websites into another dimension.<\/span><\/p>"
                 },
                 {
                     "image": "",

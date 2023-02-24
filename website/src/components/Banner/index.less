@@ -114,11 +114,15 @@
                     width: calc(80% - 40px);
                     height: auto;
                     > h1 {
+                        font-family: Verdana;
                         margin-bottom: 0;
-                        font-weight: 200;
+                        font-weight: 800;
                         font-size: 3.5em;
-                        color: #fff;
+                        color: @banner-title-text-collor;
                         letter-spacing: .01em;
+                        -webkit-text-stroke-width: 1px; /* largura da borda */
+                        -webkit-text-stroke-color: @primary-color; /* cor da borda */
+                        text-shadow: 0 0 0.2em #CE3B4F;
                         @media only screen and (max-width: @header-mobile-width) {
                             font-size: 2em;
                             line-height: 1.2em;
@@ -131,8 +135,13 @@
                     }
                     > div {
                         > p {
+
+                            font-family: Verdana;
                             font-size: 1.4em;
-                            color: #fff;
+                            color: @banner-text-collor;
+                            -webkit-text-stroke-width: 0.5px; /* largura da borda */
+                            -webkit-text-stroke-color: @primary-color; /* cor da borda */
+                            text-shadow: 0 0 0.2em #CE3B4F;
                             @media only screen and (max-width: @header-mobile-width) {
                                 font-size: 1.5em;
                                 line-height: 1.5em;
