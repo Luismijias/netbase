@@ -50,7 +50,7 @@ window.cluarData = {
                     "title": "Prestes a Voar",
                     "type": "default",
                     "actions": [],
-                    "content": "<p><span style=\"font-family: Verdana;\"><b>Aqui \u00E9 onde voc\u00EA lan\u00E7a websites em uma outra dimens\u00E3o.<\/b><\/span><\/p>"
+                    "content": "<p><span style=\"font-family: Verdana;\"><b>Aqui \u00E9 onde voc\u00EA ir\u00E1 aprender as bases para chegar \u00E0 Netuno.<\/b><\/span><\/p>"
                 },
                 {
                     "image": "",
@@ -63,7 +63,7 @@ window.cluarData = {
                     "title": "Documenta\u00E7\u00E3o",
                     "type": "text",
                     "actions": [],
-                    "content": "<p>Veja a documenta\u00E7\u00E3o oficial online em:<\/p><ul><li><a href=\"https://github.com/netuno-org/cluar/blob/main/docs/README-pt_PT.md\" target=\"_blank\">Documenta\u00E7\u00E3o Oficial no GitHub<\/a><\/li><\/ul><p>A vers\u00E3o offline est\u00E1 na pasta <b>docs<\/b> que est\u00E1 na ra\u00EDz deste projeto, a\u00ED \u00E9 onde vai encontrar o README inicial.<\/p>"
+                    "content": "<p>Veja a documenta\u00E7\u00E3o oficial online em:<\/p><ul><li><a href=\"https://github.com/Luismijias/netbase/blob/master/docs/README-pt_PT.md\" target=\"_blank\">Documenta\u00E7\u00E3o Oficial no GitHub<\/a><\/li><\/ul><p>A vers\u00E3o offline est\u00E1 na pasta <b>docs<\/b> que est\u00E1 na ra\u00EDz deste projeto, a\u00ED \u00E9 onde vai encontrar o README inicial.<\/p>"
                 },
                 {
                     "image": "",
@@ -76,7 +76,7 @@ window.cluarData = {
                     "title": "C\u00F3digo Aberto & Comunidade",
                     "type": "text",
                     "actions": [],
-                    "content": "<p>Todas as tecnologias utilizadas aqui s\u00E3o livres e abertas.<\/p><p>Colabore sugerindo melhorias ou reportando problemas em&nbsp;<a href=\"https://github.com/netuno-org/cluar/issues\" target=\"_blank\">issues<\/a>.<\/p><p>Para ajudar a comunidade publique as tuas d\u00FAvidas e dificuldades no <a href=\"https://forum.netuno.org/\" target=\"_blank\">forum<\/a>.&nbsp;<br><\/p><p>Visite o site do <a href=\"https://www.netuno.org/\" target=\"_blank\">Netuno<\/a>&nbsp;e siga-nos nas redes sociais e participe do nosso servidor no discord, os links est\u00E3o no rodap\u00E9.<\/p>"
+                    "content": "<p>Todas as tecnologias utilizadas aqui s\u00E3o livres e abertas.<\/p><p>Colabore sugerindo melhorias ou reportando problemas em&nbsp;<a href=\"https://github.com/Luismijias/netbase/issues\" target=\"_blank\">issues<\/a>.<\/p><p>Para ajudar a comunidade publique as tuas d\u00FAvidas e dificuldades no <a href=\"https://forum.netuno.org/\" target=\"_blank\">forum<\/a>.&nbsp;<br><\/p><p>Visite o site do <a href=\"https://www.netuno.org/\" target=\"_blank\">Netuno<\/a>&nbsp;e siga-nos nas redes sociais e participe do nosso servidor no discord, os links est\u00E3o no rodap\u00E9.<\/p>"
                 }
             ]
         }],
@@ -106,7 +106,7 @@ window.cluarData = {
                     "title": "Ready to Fly",
                     "type": "default",
                     "actions": [],
-                    "content": "<p><span style=\"font-family: Verdana;\">Here is where you launch websites into another dimension.<\/span><\/p>"
+                    "content": "<p><span style=\"font-family: Verdana;\">Here is where you will learn the base to get Netuno.<\/span><\/p>"
                 },
                 {
                     "image": "",
@@ -119,7 +119,7 @@ window.cluarData = {
                     "title": "Documentation",
                     "type": "text",
                     "actions": [],
-                    "content": "<p>See the official documentation online at:<\/p><ul><li><a href=\"https://github.com/netuno-org/cluar/blob/main/docs/README.md\" target=\"_blank\">Official Documentation on GitHub<\/a><\/li><\/ul><p>The offline version is in the <b>docs<\/b> folder at the root of this project, that's where you'll find the initial README.<\/p>"
+                    "content": "<p>See the official documentation online at:<\/p><ul><li><a href=\"https://github.com/Luismijias/netbase/blob/master/docs/README.md\" target=\"_blank\">Official Documentation on GitHub<\/a><\/li><\/ul><p>The offline version is in the <b>docs<\/b> folder at the root of this project, that's where you'll find the initial README.<\/p>"
                 },
                 {
                     "image": "",
@@ -132,7 +132,7 @@ window.cluarData = {
                     "title": "Open Source & Community",
                     "type": "text",
                     "actions": [],
-                    "content": "<p>All technologies used here are free and open.<\/p><p>Collaborate by suggesting improvements or reporting problems in <a href=\"https://github.com/netuno-org/cluar/issues\" target=\"_blank\">issues<\/a>.<\/p><p>To help the community post your doubts and difficulties in the <a href=\"https://forum.netuno.org/\" target=\"_blank\">forum<\/a>.&nbsp;<br><\/p><p>Visit <a href=\"https://www.netuno.org/\" target=\"_blank\">Netuno<\/a>'s website and follow us on social media and join our discord server, the links are in the footer.<\/span><\/p>"
+                    "content": "<p>All technologies used here are free and open.<\/p><p>Collaborate by suggesting improvements or reporting problems in <a href=\"https://github.com/Luismijias/netbase/issues\" target=\"_blank\">issues<\/a>.<\/p><p>To help the community post your doubts and difficulties in the <a href=\"https://forum.netuno.org/\" target=\"_blank\">forum<\/a>.&nbsp;<br><\/p><p>Visit <a href=\"https://www.netuno.org/\" target=\"_blank\">Netuno<\/a>'s website and follow us on social media and join our discord server, the links are in the footer.<\/p>"
                 }
             ]
         }]

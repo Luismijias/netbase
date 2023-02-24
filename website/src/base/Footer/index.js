@@ -84,35 +84,35 @@ function BaseFooter() {
             </Col>
           </Row>
                 <p className="social-links">
-            <a href="https://github.com/netuno-org" className="share-icons">
+            <a href="https://github.com/Luismijias/netbase" className="share-icons">
               <FaGithub />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCYY1Nz6T2NJtP29vba2fqkg"
+              href="https://www.youtube.com/@luismijias5505/videos"
               className="share-icons"
             >
               <FaYoutube />
             </a>
-            <a href="https://twitter.com/netuno_org" className="share-icons">
+            <a href="https://twitter.com/luis_mijias?t=tISniqzoCYaIBNnGuNEo-g&s=09" className="share-icons">
               <FaTwitter />
             </a>
             <a
-              href="https://www.linkedin.com/company/netuno-org/"
+              href="https://www.linkedin.com/in/luis-carlos-nogueira-mijias-b27175213"
               className="share-icons"
             >
               <FaLinkedin />
             </a>
-            <a href="https://discord.gg/4sfXG6YWFu" className="share-icons">
+            <a href="https://discord.gg/UCKtCeSd" className="share-icons">
               <FaDiscord />
             </a>
             <a
-              href="https://www.facebook.com/netuno.org/"
+              href="https://www.facebook.com/mijias/"
               className="share-icons"
             >
               <FaFacebook />
             </a>
             <a
-              href="https://www.instagram.com/netuno_org/"
+              href="https://www.instagram.com/invites/contact/?i=1o98nx4fzxbwf&utm_content=41cetl5"
               className="share-icons"
             >
               <FaInstagram />
