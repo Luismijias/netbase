@@ -173,7 +173,7 @@ window.cluarData = {
                     "title": "First Element",
                     "type": "element",
                     "items": [],
-                    "content": "<p><span style=\"background-color: rgb(255, 255, 0);\">Test content element<\/span><\/p>"
+                    "content": "<p><span style=\"background-color: rgb(255, 255, 0);\">Test content element<\/span><\/p><p><span style=\"background-color: rgb(255, 255, 0);\">New test<\/span><\/p>"
                 }]
             }
         ]
