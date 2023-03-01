@@ -163,18 +163,7 @@ window.cluarData = {
                 "description": "",
                 "menu": true,
                 "title": "Summary",
-                "structure": [{
-                    "image": "",
-                    "uid": "95e92112-db86-4fab-bbcd-9287c20e7361",
-                    "sorter": 0,
-                    "image_alt": "",
-                    "section": "listing",
-                    "image_title": "",
-                    "title": "First Element",
-                    "type": "element",
-                    "items": [],
-                    "content": "<p><span style=\"background-color: rgb(255, 255, 0);\">Test content element<\/span><\/p><p><span style=\"background-color: rgb(255, 255, 0);\">New test<\/span><\/p>"
-                }]
+                "structure": []
             }
         ]
     },
