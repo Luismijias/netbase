@@ -86,12 +86,25 @@ window.cluarData = {
                 "uid": "03157d04-7b63-4e94-9581-d242020134a0",
                 "keywords": "",
                 "sorter": 20,
-                "navigable": true,
+                "navigable": false,
                 "menu_title": "",
-                "link": "/ summary",
+                "link": "/ start",
                 "description": "",
                 "menu": true,
-                "title": "Sum\u00E1rio",
+                "title": "In\u00EDcio",
+                "structure": []
+            },
+            {
+                "parent": "/ start",
+                "uid": "8b2be36a-9026-4b4d-ad29-bbbba0752866",
+                "keywords": "",
+                "sorter": 40,
+                "navigable": true,
+                "menu_title": "teste",
+                "link": "/introduction",
+                "description": "",
+                "menu": true,
+                "title": "Introdu\u00E7\u00E3o",
                 "structure": []
             }
         ],
@@ -157,12 +170,25 @@ window.cluarData = {
                 "uid": "4f82828c-c74b-4b09-9aca-44371a74f903",
                 "keywords": "",
                 "sorter": 20,
-                "navigable": true,
+                "navigable": false,
                 "menu_title": "",
-                "link": "/ summary",
+                "link": "/ start",
                 "description": "",
                 "menu": true,
-                "title": "Summary",
+                "title": "Start",
+                "structure": []
+            },
+            {
+                "parent": "/ start",
+                "uid": "a06d81f5-b11b-490c-93a6-992be45dbeba",
+                "keywords": "",
+                "sorter": 40,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/introduction",
+                "description": "",
+                "menu": true,
+                "title": "Introduction",
                 "structure": []
             }
         ]
