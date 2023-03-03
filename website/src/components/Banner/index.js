@@ -23,11 +23,10 @@ function Banner({
 
   if (type === "flowchart") {
     layout = (
-      <div className="banner__flowchart">      
-        <iframe
-            src="https://www.canva.com/design/DAFcFoucYrE/78kS6WPgpRVCOqAHJQmI5Q/view?utm_content=DAFcFoucYrE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-            width="100%" 
-          ></iframe>
+      <div className="banner__flowchart">
+        <a href="https://trello.com/invite/b/Q2PMSedw/ATTI60c46411bd6812750cb5e3d6eb41a63c241E359D/netbase-way/">
+          <button>Link <br></br>Trello</button>
+        </a>
       </div>
     );
   } else if (type === "OTHER-CUSTOM-TYPE-HERE") {
