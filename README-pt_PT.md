@@ -86,3 +86,17 @@ que irá iniciar o servidor de backend e depois execute no diretório `(cluar ap
 `npm run start`
 
 para iniciar o servidor de frontend.
+
+
+### Sites úteis para o dev
+
+
+[Site do Fluxograma](https://www.canva.com)
+
+[Link do Fluxograma ultilizado](https://www.canva.com/design/DAFcFoucYrE/78kS6WPgpRVCOqAHJQmI5Q/view?utm_content=DAFcFoucYrE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+
+
+

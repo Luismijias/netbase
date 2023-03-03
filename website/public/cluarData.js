@@ -62,7 +62,7 @@ window.cluarData = {
                         "section": "content",
                         "image_title": "",
                         "title": "Documenta\u00E7\u00E3o",
-                        "type": "text",
+                        "type": "title-menu",
                         "actions": [],
                         "content": "<p>Veja a documenta\u00E7\u00E3o oficial online em:<\/p><ul><li><a href=\"https://github.com/Luismijias/netbase/blob/master/docs/README-pt_PT.md\" target=\"_blank\">Documenta\u00E7\u00E3o Oficial no GitHub<\/a><\/li><\/ul><p>A vers\u00E3o offline est\u00E1 na pasta <b>docs<\/b> que est\u00E1 na ra\u00EDz deste projeto, a\u00ED \u00E9 onde vai encontrar o README inicial.<\/p>"
                     },
@@ -75,7 +75,7 @@ window.cluarData = {
                         "section": "content",
                         "image_title": "",
                         "title": "C\u00F3digo Aberto & Comunidade",
-                        "type": "text",
+                        "type": "title-menu",
                         "actions": [],
                         "content": "<p>Todas as tecnologias utilizadas aqui s\u00E3o livres e abertas.<\/p><p>Colabore sugerindo melhorias ou reportando problemas em&nbsp;<a href=\"https://github.com/Luismijias/netbase/issues\" target=\"_blank\">issues<\/a>.<\/p><p>Para ajudar a comunidade publique as tuas d\u00FAvidas e dificuldades no <a href=\"https://forum.netuno.org/\" target=\"_blank\">forum<\/a>.&nbsp;<br><\/p><p>Visite o site do <a href=\"https://www.netuno.org/\" target=\"_blank\">Netuno<\/a>&nbsp;e siga-nos nas redes sociais e participe do nosso servidor no discord, os links est\u00E3o no rodap\u00E9.<\/p>"
                     }
@@ -105,6 +105,31 @@ window.cluarData = {
                 "description": "",
                 "menu": true,
                 "title": "Introdu\u00E7\u00E3o",
+                "structure": [{
+                    "image": "",
+                    "uid": "03d66bff-8c3f-42ed-889d-6ad81b43d102",
+                    "image_max_width": "0",
+                    "sorter": 10,
+                    "image_alt": "",
+                    "section": "content",
+                    "image_title": "",
+                    "title": "Aqui e onde voc\u00EA ir\u00E1 descobrir o prop\u00F3sito do site e o que almejamos.",
+                    "type": "title-menu",
+                    "actions": [],
+                    "content": "<p><br><\/p>"
+                }]
+            },
+            {
+                "parent": "/ start",
+                "uid": "7de3a625-5efe-4037-bb2e-1fe0ba81ee84",
+                "keywords": "",
+                "sorter": 60,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/way",
+                "description": "",
+                "menu": true,
+                "title": "Caminho Netbase",
                 "structure": []
             }
         ],
@@ -146,7 +171,7 @@ window.cluarData = {
                         "section": "content",
                         "image_title": "",
                         "title": "Documentation",
-                        "type": "text",
+                        "type": "title-menu",
                         "actions": [],
                         "content": "<p>See the official documentation online at:<\/p><ul><li><a href=\"https://github.com/Luismijias/netbase/blob/master/docs/README.md\" target=\"_blank\">Official Documentation on GitHub<\/a><\/li><\/ul><p>The offline version is in the <b>docs<\/b> folder at the root of this project, that's where you'll find the initial README.<\/p>"
                     },
@@ -159,7 +184,7 @@ window.cluarData = {
                         "section": "content",
                         "image_title": "",
                         "title": "Open Source & Community",
-                        "type": "text",
+                        "type": "title-menu",
                         "actions": [],
                         "content": "<p>All technologies used here are free and open.<\/p><p>Collaborate by suggesting improvements or reporting problems in <a href=\"https://github.com/Luismijias/netbase/issues\" target=\"_blank\">issues<\/a>.<\/p><p>To help the community post your doubts and difficulties in the <a href=\"https://forum.netuno.org/\" target=\"_blank\">forum<\/a>.&nbsp;<br><\/p><p>Visit <a href=\"https://www.netuno.org/\" target=\"_blank\">Netuno<\/a>'s website and follow us on social media and join our discord server, the links are in the footer.<\/p>"
                     }
@@ -189,7 +214,47 @@ window.cluarData = {
                 "description": "",
                 "menu": true,
                 "title": "Introduction",
-                "structure": []
+                "structure": [{
+                    "image": "",
+                    "uid": "b40bc9fd-245a-4b4c-8c25-c74d56aacc9e",
+                    "image_max_width": "0",
+                    "sorter": 0,
+                    "image_alt": "",
+                    "section": "content",
+                    "image_title": "",
+                    "title": "Here is where you will discover the purpose of site and what we aim for.",
+                    "type": "title-menu",
+                    "actions": [],
+                    "content": ""
+                }]
+            },
+            {
+                "parent": "/ start",
+                "uid": "fa370c42-5685-4f32-9868-f21b13739395",
+                "keywords": "",
+                "sorter": 60,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/way",
+                "description": "",
+                "menu": true,
+                "title": "Netbase Way",
+                "structure": [{
+                    "image": "",
+                    "uid": "ab06acff-e50b-4a23-8cea-0a4833067e47",
+                    "sorter": 9,
+                    "image_alt": "",
+                    "section": "banner",
+                    "image_title": "",
+                    "position": {
+                        "x": "",
+                        "y": ""
+                    },
+                    "title": "Netbase Way",
+                    "type": "flowchart",
+                    "actions": [],
+                    "content": ""
+                }]
             }
         ]
     },
