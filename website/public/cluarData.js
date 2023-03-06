@@ -130,7 +130,22 @@ window.cluarData = {
                 "description": "",
                 "menu": true,
                 "title": "Caminho Netbase",
-                "structure": []
+                "structure": [{
+                    "image": "",
+                    "uid": "d422f6dd-6df3-442c-b5ec-28a7370c0356",
+                    "sorter": 0,
+                    "image_alt": "",
+                    "section": "banner",
+                    "image_title": "",
+                    "position": {
+                        "x": "",
+                        "y": ""
+                    },
+                    "title": "Caminho Netbase",
+                    "type": "flowchart",
+                    "actions": [],
+                    "content": ""
+                }]
             }
         ],
         "EN": [
