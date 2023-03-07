@@ -38,7 +38,7 @@ window.cluarData = {
                 "title": "Principal",
                 "structure": [
                     {
-                        "image": "astronauta-ejllpjYv.jpg",
+                        "image": "home_image-dku098Bu.jpg",
                         "uid": "5126f3bb-51d1-489e-89dc-08087ed38e5e",
                         "sorter": 10,
                         "image_alt": "",
@@ -133,7 +133,7 @@ window.cluarData = {
                 "structure": [{
                     "image": "",
                     "uid": "d422f6dd-6df3-442c-b5ec-28a7370c0356",
-                    "sorter": 0,
+                    "sorter": 20,
                     "image_alt": "",
                     "section": "banner",
                     "image_title": "",
@@ -146,6 +146,19 @@ window.cluarData = {
                     "actions": [],
                     "content": ""
                 }]
+            },
+            {
+                "parent": "/ start",
+                "uid": "e37f30a3-c414-448e-9b21-78b1232cb0a3",
+                "keywords": "",
+                "sorter": 80,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/level0",
+                "description": "",
+                "menu": true,
+                "title": "N\u00EDvel 0",
+                "structure": []
             }
         ],
         "EN": [
@@ -162,7 +175,7 @@ window.cluarData = {
                 "title": "Home",
                 "structure": [
                     {
-                        "image": "astronauta-wnBl8ZpA.jpg",
+                        "image": "home_image-brnjuSVW.jpg",
                         "uid": "9302bc90-d687-494d-bfc0-b4aeff4df09e",
                         "sorter": 10,
                         "image_alt": "",
@@ -257,7 +270,7 @@ window.cluarData = {
                 "structure": [{
                     "image": "",
                     "uid": "ab06acff-e50b-4a23-8cea-0a4833067e47",
-                    "sorter": 9,
+                    "sorter": 20,
                     "image_alt": "",
                     "section": "banner",
                     "image_title": "",
@@ -270,6 +283,19 @@ window.cluarData = {
                     "actions": [],
                     "content": ""
                 }]
+            },
+            {
+                "parent": "/ start",
+                "uid": "a688077a-cbd6-46fa-8948-aa28c07fb55f",
+                "keywords": "",
+                "sorter": 80,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/level0",
+                "description": "",
+                "menu": true,
+                "title": "Level 0",
+                "structure": []
             }
         ]
     },

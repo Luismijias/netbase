@@ -24,8 +24,10 @@ function Banner({
   if (type === "flowchart") {
     layout = (
       <div className="banner__flowchart">
-        <a href="https://trello.com/invite/b/Q2PMSedw/ATTI60c46411bd6812750cb5e3d6eb41a63c241E359D/netbase-way/" >
-          <button>Link <br></br>Trello</button>
+        <a href="https://trello.com/invite/b/Q2PMSedw/ATTI60c46411bd6812750cb5e3d6eb41a63c241E359D/netbase-way/">
+          <div class="wrap">
+            <button class="button">Trello</button>
+          </div>
         </a>
       </div>
     );

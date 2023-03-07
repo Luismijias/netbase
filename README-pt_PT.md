@@ -95,6 +95,12 @@ para iniciar o servidor de frontend.
 
 [Link do Fluxograma ultilizado](https://www.canva.com/design/DAFcFoucYrE/78kS6WPgpRVCOqAHJQmI5Q/view?utm_content=DAFcFoucYrE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+[Link da imagem home que foi criada pela IA "DEEP DREAM GENERATOR"](https://deepdreamgenerator.com/ddream/1pk2a2fdb64)
+
+[Link da imagem netbaseway que foi criada pela IA "DEEP DREAM GENERATOR"](https://deepdreamgenerator.com/ddream/1pk2a2fdb64)
+
+
+
 
 
 
