@@ -27,6 +27,8 @@ function Banner({
         className={`banner__${type}`}
         style={{
           backgroundImage: `url(/images/${section}/${image})`,
+          backgroundPosition: "center",
+          backgroundPositionY: "40%",
         }}
       >
         <Row>
@@ -36,7 +38,7 @@ function Banner({
             </div>
             <div>
               <a href="https://trello.com/b/Q2PMSedw/netbase-way">
-                <button class="button">Trello</button>
+                <button class="button">Netbase</button>
               </a>
             </div>
           </Col>
@@ -49,8 +51,8 @@ function Banner({
         className={`banner__${type}`}
         style={{
           backgroundImage: `url(/images/${section}/${image})`,
-          backgroundPositionX: backgroundPositionX,
-          backgroundPositionY: backgroundPositionY,
+          backgroundPosition: "center",
+          backgroundSize: "100vw",
         }}
       >
         <Row className="banner__wrapper" justify="center">
@@ -71,14 +73,7 @@ function Banner({
               ></div>
             </div>
           </Col>
-          <Col lg={6} sm={24}>
-            <Actions {...{ section, type, actions }} />
-          </Col>
         </Row>
-        <div className="banner__sub-banner">
-          {Cluar.plainDictionary("text-sub-banner")}
-        </div>
-        <div className="banner__darken-bg"></div>
       </div>
     );
   } else if (type === "OTHER-CUSTOM-TYPE-HERE") {
@@ -105,7 +100,7 @@ function Banner({
                 data-sal-duration="2000"
                 data-sal-easing="ease-out-cubic"
               >
-                Crie um tipo e uma classa no less.
+                Criate other custom type here.
               </h1>
               <div
                 data-sal="fade"
@@ -115,18 +110,10 @@ function Banner({
               ></div>
             </div>
           </Col>
-          <Col lg={6} sm={24}>
-            <Actions {...{ section, type, actions }} />
-          </Col>
-        </Row>
-        <div className="banner__sub-banner">
-          {Cluar.plainDictionary("text-sub-banner")}
+          </Row>
         </div>
-        <div className="banner__darken-bg"></div>
-      </div>
     );
   }
-
   return <section className="banner">{layout}</section>;
 }
 
