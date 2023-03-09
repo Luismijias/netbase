@@ -21,7 +21,7 @@ function Banner({
   let backgroundPositionY = position.y !== "" ? position.y : "50%";
   let layout = null;
 
-  if (type === "flowchart") {
+  if (type === "netbaseway") {
     layout = (
       <div
         className={`banner__${type}`}

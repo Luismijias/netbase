@@ -155,7 +155,7 @@ window.cluarData = {
                         "y": ""
                     },
                     "title": "Caminho Netbase",
-                    "type": "flowchart",
+                    "type": "netbaseway",
                     "actions": [],
                     "content": ""
                 }]
@@ -305,7 +305,7 @@ window.cluarData = {
                         "y": ""
                     },
                     "title": "Netbase Way",
-                    "type": "flowchart",
+                    "type": "netbaseway",
                     "actions": [],
                     "content": ""
                 }]
