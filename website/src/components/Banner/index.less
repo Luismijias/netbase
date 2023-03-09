@@ -1,28 +1,29 @@
 @import "../../styles/variables.less";
 
-.banner {
+.banner{
   position: relative;
+  
+  &__default, &__default-sub-banner {
+    min-height: 600px;
+    height: calc(100vh - @header-size);
+    @media only screen and (max-width: @header-mobile-width) {
+      height: calc(100vh - @header-size-mobile);
+    }
+    .banner__darken-bg {
+      display: none;
+    }
+  }
+
+  &__home{
+    min-height: 600px;
+    height: calc(100vh - 0.7*@header-size);
+    @media only screen and (max-width: @header-mobile-width) {
+      height: calc(100vh - @header-size-mobile);
+    } 
+  }
 
   &__flowchart {
-    background-image: url("../../../public/images/banner/netbaseway_image.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: auto;
-    background-color: #08192d;
-    height: 100vh;
-    text-align: center;
-    html,
-    body {
-      height: 100%;
-    }
-
-    .wrap {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+    height: 100vh; 
 
     .button {
       min-width: 300px;
@@ -110,12 +111,7 @@
   }
 
   &__wrapper {
-    width: 100%;
-    max-width: @site-max-width;
-    margin-top: -32px;
-
     @media only screen and (max-width: @header-mobile-width) {
-      margin-top: 0;
     }
   }
 
@@ -160,17 +156,7 @@
     }
   }
 
-  &__default,
-  &__default-sub-banner {
-    min-height: 600px;
-    height: calc(100vh - @header-size);
-    @media only screen and (max-width: @header-mobile-width) {
-      height: calc(100vh - @header-size-mobile);
-    }
-    .banner__darken-bg {
-      display: none;
-    }
-  }
+
   &__secondary {
     position: relative;
     height: calc(40vh - @header-size);

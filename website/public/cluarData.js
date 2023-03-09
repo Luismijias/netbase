@@ -38,7 +38,7 @@ window.cluarData = {
                 "title": "Principal",
                 "structure": [
                     {
-                        "image": "home_image-dku098Bu.jpg",
+                        "image": "home_image-aS1V7oQ4.jpg",
                         "uid": "5126f3bb-51d1-489e-89dc-08087ed38e5e",
                         "sorter": 10,
                         "image_alt": "",
@@ -49,7 +49,7 @@ window.cluarData = {
                             "y": ""
                         },
                         "title": "Prestes a Voar",
-                        "type": "default",
+                        "type": "home",
                         "actions": [],
                         "content": "<p><span style=\"font-family: Verdana;\"><b>Aqui \u00E9 onde voc\u00EA ir\u00E1 aprender as bases para chegar \u00E0 Netuno.<\/b><\/span><\/p>"
                     },
@@ -95,6 +95,19 @@ window.cluarData = {
                 "structure": []
             },
             {
+                "parent": "/level0",
+                "uid": "76ca8898-04f3-46d8-9c3f-6a7ea56324fe",
+                "keywords": "",
+                "sorter": 20,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/dom",
+                "description": "O que \u00E9 Dom & Virtual DOM",
+                "menu": true,
+                "title": "DOM & Virtual DOM",
+                "structure": []
+            },
+            {
                 "parent": "/ start",
                 "uid": "8b2be36a-9026-4b4d-ad29-bbbba0752866",
                 "keywords": "",
@@ -131,7 +144,7 @@ window.cluarData = {
                 "menu": true,
                 "title": "Caminho Netbase",
                 "structure": [{
-                    "image": "",
+                    "image": "netbaseway_image-TfmAtJIA.jpg",
                     "uid": "d422f6dd-6df3-442c-b5ec-28a7370c0356",
                     "sorter": 20,
                     "image_alt": "",
@@ -186,7 +199,7 @@ window.cluarData = {
                             "y": ""
                         },
                         "title": "Ready to Fly",
-                        "type": "default",
+                        "type": "home",
                         "actions": [],
                         "content": "<p><span style=\"font-family: Verdana;\">Here is where you will learn the base to get Netuno.<\/span><\/p>"
                     },
@@ -232,6 +245,19 @@ window.cluarData = {
                 "structure": []
             },
             {
+                "parent": "/level0",
+                "uid": "d6a21f0d-8e00-4cc2-953c-3d5ce2ec4696",
+                "keywords": "",
+                "sorter": 20,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/dom",
+                "description": "",
+                "menu": true,
+                "title": "DOM & Virtual DOM",
+                "structure": []
+            },
+            {
                 "parent": "/ start",
                 "uid": "a06d81f5-b11b-490c-93a6-992be45dbeba",
                 "keywords": "",
@@ -268,7 +294,7 @@ window.cluarData = {
                 "menu": true,
                 "title": "Netbase Way",
                 "structure": [{
-                    "image": "",
+                    "image": "netbaseway_image-PpTNz610.jpg",
                     "uid": "ab06acff-e50b-4a23-8cea-0a4833067e47",
                     "sorter": 20,
                     "image_alt": "",

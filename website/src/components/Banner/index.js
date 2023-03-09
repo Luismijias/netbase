@@ -23,16 +23,69 @@ function Banner({
 
   if (type === "flowchart") {
     layout = (
-      <div className="banner__flowchart">
-        <a href="https://trello.com/invite/b/Q2PMSedw/ATTI60c46411bd6812750cb5e3d6eb41a63c241E359D/netbase-way/">
-          <div class="wrap">
-            <button class="button">Trello</button>
-          </div>
-        </a>
+      <div
+        className={`banner__${type}`}
+        style={{
+          backgroundImage: `url(/images/${section}/${image})`,
+        }}
+      >
+        <Row>
+          <Col span={24}>
+            <div>
+              <h1>{title}</h1>
+              </div>
+              <div>
+                <button class="button">Trello</button>
+              </div>
+           
+          </Col>
+        </Row>
       </div>
     );
+  } else if (type === "home") {
+    layout = (
+    <div
+      className={`banner__${type}`}
+      style={{
+        backgroundImage: `url(/images/${section}/${image})`,
+        backgroundPositionX: backgroundPositionX,
+        backgroundPositionY: backgroundPositionY,
+      }}
+    >
+      <Row className="banner__wrapper" justify="center">
+        <Col lg={18} sm={24}>
+          <div>
+            <h1
+              data-sal="slide-down"
+              data-sal-duration="2000"
+              data-sal-easing="ease-out-cubic"
+            >
+              {title}
+            </h1>
+            <div
+              data-sal="fade"
+              data-sal-duration="2000"
+              data-sal-easing="ease-out-cubic"
+              dangerouslySetInnerHTML={{ __html: content }}
+            ></div>
+          </div>
+        </Col>
+        <Col lg={6} sm={24}>
+          <Actions {...{ section, type, actions }} />
+        </Col>
+      </Row>
+      <div className="banner__sub-banner">
+        {Cluar.plainDictionary("text-sub-banner")}
+      </div>
+      <div className="banner__darken-bg"></div>
+    </div>
+  );
   } else if (type === "OTHER-CUSTOM-TYPE-HERE") {
-    layout = <div>Outro deu certo</div>;
+    layout = <div>Your layout here</div>;
+  } else if (type === "OTHER-CUSTOM-TYPE-HERE") {
+    layout = <div>Your layout here</div>;
+  } else if (type === "OTHER-CUSTOM-TYPE-HERE") {
+    layout = <div>Your layout here</div>;
   } else {
     layout = (
       <div
@@ -51,7 +104,7 @@ function Banner({
                 data-sal-duration="2000"
                 data-sal-easing="ease-out-cubic"
               >
-                {title}
+                Crie um tipo e uma classa no less.
               </h1>
               <div
                 data-sal="fade"
