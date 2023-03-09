@@ -99,6 +99,8 @@ para iniciar o servidor de frontend.
 
 [Link da imagem netbaseway que foi criada pela IA "DEEP DREAM GENERATOR"](https://deepdreamgenerator.com/ddream/1pk2a2fdb64)
 
+[Link do trello da página Netway](https://trello.com/b/Q2PMSedw/netbase-way)
+
 
 
 

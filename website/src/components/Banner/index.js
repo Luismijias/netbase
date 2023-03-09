@@ -33,53 +33,54 @@ function Banner({
           <Col span={24}>
             <div>
               <h1>{title}</h1>
-              </div>
-              <div>
+            </div>
+            <div>
+              <a href="https://trello.com/b/Q2PMSedw/netbase-way">
                 <button class="button">Trello</button>
-              </div>
-           
+              </a>
+            </div>
           </Col>
         </Row>
       </div>
     );
   } else if (type === "home") {
     layout = (
-    <div
-      className={`banner__${type}`}
-      style={{
-        backgroundImage: `url(/images/${section}/${image})`,
-        backgroundPositionX: backgroundPositionX,
-        backgroundPositionY: backgroundPositionY,
-      }}
-    >
-      <Row className="banner__wrapper" justify="center">
-        <Col lg={18} sm={24}>
-          <div>
-            <h1
-              data-sal="slide-down"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-cubic"
-            >
-              {title}
-            </h1>
-            <div
-              data-sal="fade"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-cubic"
-              dangerouslySetInnerHTML={{ __html: content }}
-            ></div>
-          </div>
-        </Col>
-        <Col lg={6} sm={24}>
-          <Actions {...{ section, type, actions }} />
-        </Col>
-      </Row>
-      <div className="banner__sub-banner">
-        {Cluar.plainDictionary("text-sub-banner")}
+      <div
+        className={`banner__${type}`}
+        style={{
+          backgroundImage: `url(/images/${section}/${image})`,
+          backgroundPositionX: backgroundPositionX,
+          backgroundPositionY: backgroundPositionY,
+        }}
+      >
+        <Row className="banner__wrapper" justify="center">
+          <Col lg={18} sm={24}>
+            <div>
+              <h1
+                data-sal="slide-down"
+                data-sal-duration="2000"
+                data-sal-easing="ease-out-cubic"
+              >
+                {title}
+              </h1>
+              <div
+                data-sal="fade"
+                data-sal-duration="2000"
+                data-sal-easing="ease-out-cubic"
+                dangerouslySetInnerHTML={{ __html: content }}
+              ></div>
+            </div>
+          </Col>
+          <Col lg={6} sm={24}>
+            <Actions {...{ section, type, actions }} />
+          </Col>
+        </Row>
+        <div className="banner__sub-banner">
+          {Cluar.plainDictionary("text-sub-banner")}
+        </div>
+        <div className="banner__darken-bg"></div>
       </div>
-      <div className="banner__darken-bg"></div>
-    </div>
-  );
+    );
   } else if (type === "OTHER-CUSTOM-TYPE-HERE") {
     layout = <div>Your layout here</div>;
   } else if (type === "OTHER-CUSTOM-TYPE-HERE") {
