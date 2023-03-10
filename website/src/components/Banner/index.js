@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
 
-import Actions from "../Actions";
+import { Trello_button } from "../Buttons/trello/item";
 import Cluar from "../../common/Cluar";
 
 import "./index.less";
@@ -37,9 +37,7 @@ function Banner({
               <h1>{title}</h1>
             </div>
             <div>
-              <a href="https://trello.com/b/Q2PMSedw/netbase-way">
-                <button class="button">Netbase</button>
-              </a>
+              <Trello_button/>
             </div>
           </Col>
         </Row>
@@ -64,7 +62,12 @@ function Banner({
                 data-sal-easing="ease-out-cubic"
               >
                 {title}
+               
               </h1>
+              <div>
+                
+              </div>
+
               <div
                 data-sal="fade"
                 data-sal-duration="2000"
