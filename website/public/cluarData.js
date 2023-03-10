@@ -62,7 +62,7 @@ window.cluarData = {
                         "section": "content",
                         "image_title": "",
                         "title": "Documenta\u00E7\u00E3o",
-                        "type": "title-menu",
+                        "type": "style_1_description",
                         "actions": [],
                         "content": "<p>Veja a documenta\u00E7\u00E3o oficial online em:<\/p><ul><li><a href=\"https://github.com/Luismijias/netbase/blob/master/docs/README-pt_PT.md\" target=\"_blank\">Documenta\u00E7\u00E3o Oficial no GitHub<\/a><\/li><\/ul><p>A vers\u00E3o offline est\u00E1 na pasta <b>docs<\/b> que est\u00E1 na ra\u00EDz deste projeto, a\u00ED \u00E9 onde vai encontrar o README inicial.<\/p>"
                     },
@@ -75,7 +75,7 @@ window.cluarData = {
                         "section": "content",
                         "image_title": "",
                         "title": "C\u00F3digo Aberto & Comunidade",
-                        "type": "title-menu",
+                        "type": "style_1_description",
                         "actions": [],
                         "content": "<p>Todas as tecnologias utilizadas aqui s\u00E3o livres e abertas.<\/p><p>Colabore sugerindo melhorias ou reportando problemas em&nbsp;<a href=\"https://github.com/Luismijias/netbase/issues\" target=\"_blank\">issues<\/a>.<\/p><p>Para ajudar a comunidade publique as tuas d\u00FAvidas e dificuldades no <a href=\"https://forum.netuno.org/\" target=\"_blank\">forum<\/a>.&nbsp;<br><\/p><p>Visite o site do <a href=\"https://www.netuno.org/\" target=\"_blank\">Netuno<\/a>&nbsp;e siga-nos nas redes sociais e participe do nosso servidor no discord, os links est\u00E3o no rodap\u00E9.<\/p>"
                     }
@@ -105,7 +105,34 @@ window.cluarData = {
                 "description": "O que \u00E9 Dom & Virtual DOM",
                 "menu": true,
                 "title": "DOM & Virtual DOM",
-                "structure": []
+                "structure": [
+                    {
+                        "image": "",
+                        "uid": "9eeb2c16-82fc-4c11-9fa3-30bc35184157",
+                        "image_max_width": "0",
+                        "sorter": 20,
+                        "image_alt": "",
+                        "section": "content",
+                        "image_title": "",
+                        "title": "DOM",
+                        "type": "style_1_description",
+                        "actions": [],
+                        "content": "<li class=\"dom_descricao\" style=\"color: rgb(51, 51, 51);\">\"Dom\" \u00E9 a sigla para Document Object Model ou em portugu\u00EAs (Objeto Modelo de Documento), que \u00E9 uma representa\u00E7\u00E3o em \u00E1rvore de todos os elementos em uma p\u00E1gina web. \u00C9 uma interface de programa\u00E7\u00E3o (API) para documentos HTML e XML, que permite que programadores manipulem o conte\u00FAdo, estrutura e estilo de uma p\u00E1gina atrav\u00E9s de c\u00F3digo JavaScript.<\/li>"
+                    },
+                    {
+                        "image": "",
+                        "uid": "b8525e19-9c9d-441e-a4ad-1bea76827a0f",
+                        "image_max_width": "0",
+                        "sorter": 40,
+                        "image_alt": "",
+                        "section": "content",
+                        "image_title": "",
+                        "title": "Virtual DOM",
+                        "type": "style_1_description",
+                        "actions": [],
+                        "content": "<ul><li><span style=\"color: rgb(51, 51, 51); font-size: 21px;\">J\u00E1 o \"Virtual DOM\" \u00E9 uma abstra\u00E7\u00E3o do DOM real, usada por bibliotecas de JavaScript como React para tornar mais f\u00E1cil e eficiente a manipula\u00E7\u00E3o do DOM. Em vez de atualizar o DOM diretamente, a biblioteca React mant\u00E9m uma representa\u00E7\u00E3o em mem\u00F3ria do Virtual DOM e compara a representa\u00E7\u00E3o atual com a anterior para determinar as mudan\u00E7as necess\u00E1rias. Em seguida, atualiza o DOM real com o menor n\u00FAmero poss\u00EDvel de mudan\u00E7as, o que torna a atualiza\u00E7\u00E3o da p\u00E1gina mais r\u00E1pida e eficiente em termos de recursos. atrav\u00E9s de c\u00F3digo JavaScript.<\/span><br><\/li><\/ul>"
+                    }
+                ]
             },
             {
                 "parent": "/ start",
@@ -127,9 +154,34 @@ window.cluarData = {
                     "section": "content",
                     "image_title": "",
                     "title": "Aqui e onde voc\u00EA ir\u00E1 descobrir o prop\u00F3sito do site e o que almejamos.",
-                    "type": "title-menu",
+                    "type": "style_1_description",
                     "actions": [],
                     "content": "<p><br><\/p>"
+                }]
+            },
+            {
+                "parent": "/level0",
+                "uid": "49a322d7-fb01-4338-8368-47534502bcda",
+                "keywords": "",
+                "sorter": 40,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/props",
+                "description": "",
+                "menu": true,
+                "title": "PROPS",
+                "structure": [{
+                    "image": "",
+                    "uid": "4bcfe661-08ee-4f51-9bed-6b8d79a8222d",
+                    "image_max_width": "0",
+                    "sorter": 20,
+                    "image_alt": "",
+                    "section": "content",
+                    "image_title": "",
+                    "title": "PROPS",
+                    "type": "style_1_description",
+                    "actions": [],
+                    "content": "<ul><li><span style=\"color: rgb(51, 51, 51); font-size: 21px;\">Propriedades,properties ou resumidamente \"Props\", s\u00E3o informa\u00E7\u00F5es que podem ser passadas para um componente. Pode ser uma string, um n\u00FAmero, at\u00E9 mesmo uma fun\u00E7\u00E3o. Um dado importante \u00E9 que esse valor pode ser utilizado pelo pr\u00F3prio componente que a recebe. Primeiro, passamos o dado que desejamos passar ao componente definindo-o como um ATRIBUTO, onde o componente \u00E9 utilizado.Tornando esse componente din\u00E2mico que recebe as propriedades do elemento pai.<\/span><br><\/li><\/ul>"
                 }]
             },
             {
@@ -212,7 +264,7 @@ window.cluarData = {
                         "section": "content",
                         "image_title": "",
                         "title": "Documentation",
-                        "type": "title-menu",
+                        "type": "style_1_description",
                         "actions": [],
                         "content": "<p>See the official documentation online at:<\/p><ul><li><a href=\"https://github.com/Luismijias/netbase/blob/master/docs/README.md\" target=\"_blank\">Official Documentation on GitHub<\/a><\/li><\/ul><p>The offline version is in the <b>docs<\/b> folder at the root of this project, that's where you'll find the initial README.<\/p>"
                     },
@@ -225,7 +277,7 @@ window.cluarData = {
                         "section": "content",
                         "image_title": "",
                         "title": "Open Source & Community",
-                        "type": "title-menu",
+                        "type": "style_1_description",
                         "actions": [],
                         "content": "<p>All technologies used here are free and open.<\/p><p>Collaborate by suggesting improvements or reporting problems in <a href=\"https://github.com/Luismijias/netbase/issues\" target=\"_blank\">issues<\/a>.<\/p><p>To help the community post your doubts and difficulties in the <a href=\"https://forum.netuno.org/\" target=\"_blank\">forum<\/a>.&nbsp;<br><\/p><p>Visit <a href=\"https://www.netuno.org/\" target=\"_blank\">Netuno<\/a>'s website and follow us on social media and join our discord server, the links are in the footer.<\/p>"
                     }
@@ -255,7 +307,34 @@ window.cluarData = {
                 "description": "",
                 "menu": true,
                 "title": "DOM & Virtual DOM",
-                "structure": []
+                "structure": [
+                    {
+                        "image": "",
+                        "uid": "e753b932-dab9-45be-91f3-328cc07b6200",
+                        "image_max_width": "0",
+                        "sorter": 20,
+                        "image_alt": "",
+                        "section": "content",
+                        "image_title": "",
+                        "title": "DOM ",
+                        "type": "style_1_description",
+                        "actions": [],
+                        "content": "<ul><li><span style=\"color: rgb(51, 51, 51); font-size: 21px;\">\"Dom\" is the acronym for Document Object Model or in Portuguese (Objeto Document Template), which is a tree representation of all elements on a web page. It is a programming interface (API) for HTML and XML documents, which allows programmers to manipulate the content, structure and style of a page through JavaScript code.<\/span><\/li><\/ul>"
+                    },
+                    {
+                        "image": "",
+                        "uid": "7df7d786-abdd-4413-b3af-d0b5327c4ec4",
+                        "image_max_width": "0",
+                        "sorter": 40,
+                        "image_alt": "",
+                        "section": "content",
+                        "image_title": "",
+                        "title": "Virtual DOM",
+                        "type": "style_1_description",
+                        "actions": [],
+                        "content": "<ul><li><span style=\"color: rgb(51, 51, 51); font-size: 21px;\">The \"Virtual DOM\" is an abstraction of the real DOM, used by libraries of JavaScript like React to make handling easier and more efficient from the DOM. Instead of updating the DOM directly, the React library maintains an in-memory representation of the Virtual DOM and compare the representation current with the previous one to determine the necessary changes. In then updates the actual DOM with as few changes as possible, which which makes updating the page faster and more efficient in terms of resources. through JavaScript code.<\/span><br><\/li><\/ul>"
+                    }
+                ]
             },
             {
                 "parent": "/ start",
@@ -272,14 +351,39 @@ window.cluarData = {
                     "image": "",
                     "uid": "b40bc9fd-245a-4b4c-8c25-c74d56aacc9e",
                     "image_max_width": "0",
-                    "sorter": 0,
+                    "sorter": 10,
                     "image_alt": "",
                     "section": "content",
                     "image_title": "",
                     "title": "Here is where you will discover the purpose of site and what we aim for.",
-                    "type": "title-menu",
+                    "type": "style_1_description",
                     "actions": [],
                     "content": ""
+                }]
+            },
+            {
+                "parent": "/level0",
+                "uid": "ce2d1a1e-2da3-4d08-9f48-336b166a2a4a",
+                "keywords": "",
+                "sorter": 40,
+                "navigable": true,
+                "menu_title": "",
+                "link": "/props",
+                "description": "",
+                "menu": true,
+                "title": "PROPS",
+                "structure": [{
+                    "image": "",
+                    "uid": "13088c5f-c67d-4b3d-a137-e539c87d4088",
+                    "image_max_width": "0",
+                    "sorter": 20,
+                    "image_alt": "",
+                    "section": "content",
+                    "image_title": "",
+                    "title": "PROPS",
+                    "type": "style_1_description",
+                    "actions": [],
+                    "content": "<ul><li>Properties, or in short \"Props\", are information that cam be passed to a component. It can be a string, a number, even a function. An important data is that this value can be used by he component that recives it. First, we pass the data we want to pass to the component defining is as an ATTRIBUTE,&nbsp; where the component is used. Making this component dynamic that receives the properties of the parent element.<br><\/li><\/ul>"
                 }]
             },
             {

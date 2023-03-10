@@ -106,5 +106,24 @@ para iniciar o servidor de frontend.
 
 
 
+### Tarefas a fazer:
+
+número de (*) definine a prioridade quanto mais maior a prioridade.
+
+
+
+*Assuntos a incluir no nível 0 `CSS, STATE, HTML`
+*Assuntos à incluir no nível 1 `LESS, ANTD, Variáveis Globais`
+***Criar funcionalidade à medida `Intruduzir botões com link nas páginas desejadas`
+
+
+
+
+
+
+
+
+
+
 
 

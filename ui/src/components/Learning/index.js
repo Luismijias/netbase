@@ -10,7 +10,7 @@ export default function Learning() {
   return (
     <div className="learning">
       <Title className="learning_title">{Variáveis.tituloprincipal}</Title>
-      <EntendenDom/>
+    
       <ComponenteFuncaoExemploProps
         assunto={Variáveis.propsast}
         video1={Variáveis.propsv1}
