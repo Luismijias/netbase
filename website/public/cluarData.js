@@ -117,7 +117,7 @@ window.cluarData = {
                         "title": "DOM",
                         "type": "style_1_description",
                         "actions": [],
-                        "content": "<li class=\"dom_descricao\" style=\"color: rgb(51, 51, 51);\">\"Dom\" \u00E9 a sigla para Document Object Model ou em portugu\u00EAs (Objeto Modelo de Documento), que \u00E9 uma representa\u00E7\u00E3o em \u00E1rvore de todos os elementos em uma p\u00E1gina web. \u00C9 uma interface de programa\u00E7\u00E3o (API) para documentos HTML e XML, que permite que programadores manipulem o conte\u00FAdo, estrutura e estilo de uma p\u00E1gina atrav\u00E9s de c\u00F3digo JavaScript.<\/li>"
+                        "content": "<ul><li><span style=\"color: rgb(51, 51, 51); font-size: 21px;\">Dom\" \u00E9 a sigla para Document Object Model ou em portugu\u00EAs (Objeto Modelo de Documento), que \u00E9 uma representa\u00E7\u00E3o em \u00E1rvore de todos os elementos em uma p\u00E1gina web. \u00C9 uma interface de programa\u00E7\u00E3o (API) para documentos HTML e XML, que permite que programadores manipulem o conte\u00FAdo, estrutura e estilo de uma p\u00E1gina atrav\u00E9s de c\u00F3digo JavaScript.<\/span><br><\/li><\/ul>\r\n"
                     },
                     {
                         "image": "",
