@@ -91,7 +91,7 @@ window.cluarData = {
                 "link": "/ start",
                 "description": "",
                 "menu": true,
-                "title": "In\u00EDcio",
+                "title": "Jornada",
                 "structure": []
             },
             {
@@ -192,11 +192,11 @@ window.cluarData = {
                         "section": "listing",
                         "image_title": "",
                         "title": "V\u00EDdeos sobre props",
-                        "type": "button_link_video",
+                        "type": "button_link_video_pt",
                         "items": [{
                             "image": "",
                             "uid": "3d875401-97fa-4d44-997d-e7085c4d6096",
-                            "sorter": 20,
+                            "sorter": 40,
                             "image_alt": "",
                             "link": "https://youtu.be/TlD49IAEPmc?t=141",
                             "section": "listing_item",
@@ -317,7 +317,7 @@ window.cluarData = {
                 "link": "/ start",
                 "description": "",
                 "menu": true,
-                "title": "Start",
+                "title": "Journey",
                 "structure": []
             },
             {
@@ -396,19 +396,43 @@ window.cluarData = {
                 "description": "",
                 "menu": true,
                 "title": "PROPS",
-                "structure": [{
-                    "image": "",
-                    "uid": "13088c5f-c67d-4b3d-a137-e539c87d4088",
-                    "image_max_width": "0",
-                    "sorter": 20,
-                    "image_alt": "",
-                    "section": "content",
-                    "image_title": "",
-                    "title": "PROPS",
-                    "type": "style_1_description",
-                    "actions": [],
-                    "content": "<ul><li>Properties, or in short \"Props\", are information that cam be passed to a component. It can be a string, a number, even a function. An important data is that this value can be used by he component that recives it. First, we pass the data we want to pass to the component defining is as an ATTRIBUTE,&nbsp; where the component is used. Making this component dynamic that receives the properties of the parent element.<br><\/li><\/ul>"
-                }]
+                "structure": [
+                    {
+                        "image": "",
+                        "uid": "13088c5f-c67d-4b3d-a137-e539c87d4088",
+                        "image_max_width": "0",
+                        "sorter": 20,
+                        "image_alt": "",
+                        "section": "content",
+                        "image_title": "",
+                        "title": "PROPS",
+                        "type": "style_1_description",
+                        "actions": [],
+                        "content": "<ul><li>Properties, or in short \"Props\", are information that cam be passed to a component. It can be a string, a number, even a function. An important data is that this value can be used by he component that recives it. First, we pass the data we want to pass to the component defining is as an ATTRIBUTE,&nbsp; where the component is used. Making this component dynamic that receives the properties of the parent element.<br><\/li><\/ul>"
+                    },
+                    {
+                        "image": "",
+                        "uid": "e9501b34-41a0-4fcb-8b16-545c47c74795",
+                        "sorter": 40,
+                        "image_alt": "",
+                        "section": "listing",
+                        "image_title": "",
+                        "title": "Videos about props",
+                        "type": "button_link_video_en",
+                        "items": [{
+                            "image": "",
+                            "uid": "f2c50761-904a-45f9-a3fb-f35970a886c0",
+                            "sorter": 40,
+                            "image_alt": "",
+                            "link": "https://youtu.be/TlD49IAEPmc?t=141",
+                            "section": "listing_item",
+                            "image_title": "",
+                            "title": "What is PROPS",
+                            "content": ""
+                        }],
+                        "content": ""
+                    }
+                ]
             },
             {
                 "parent": "/ start",
