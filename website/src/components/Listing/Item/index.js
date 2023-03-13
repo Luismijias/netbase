@@ -14,6 +14,16 @@ function Item({ section, type, image, image_title, image_alt, title, content, li
         </a>
       </Col>
     );
+  } else if(type === 'button_link_video') {
+    layout = (
+      <li className={`listing__item__${type}`} style={{ backgroundImage: `url(/images/${section}/${image})` }}>
+        <div className={`listing__item__${type}__content`}>
+          <h1>{title}</h1>
+          <a href={link}> <button>Click here</button></a>
+          <div dangerouslySetInnerHTML={{ __html: content }}></div>
+        </div>
+      </li>
+    );
   } else if(type === 'OTHER-CUSTOM-TYPE-HERE') {
     layout = (
       <li className={`listing__item__${type}`} style={{ backgroundImage: `url(/images/${section}/${image})` }}>
@@ -23,11 +33,21 @@ function Item({ section, type, image, image_title, image_alt, title, content, li
         </div>
       </li>
     );
-  } else {
+  }else if(type === 'OTHER-CUSTOM-TYPE-HERE') {
+    layout = (
+      <li className={`listing__item__${type}`} style={{ backgroundImage: `url(/images/${section}/${image})` }}>
+        <div className={`listing__item__${type}__content`}>
+          <h1>{title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: content }}></div>
+        </div>
+      </li>
+    );
+  }else {
     layout = (
       <li className="listing__item">
         <div className={`listing__item`}>
           <h1>{title}</h1>
+          <a href={link}> <button>Click here</button></a>
           <img src={`/images/${section}/${image}`}  alt={ image_alt } title={ image_title } />
           <div dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>

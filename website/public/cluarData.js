@@ -170,19 +170,43 @@ window.cluarData = {
                 "description": "",
                 "menu": true,
                 "title": "PROPS",
-                "structure": [{
-                    "image": "",
-                    "uid": "4bcfe661-08ee-4f51-9bed-6b8d79a8222d",
-                    "image_max_width": "0",
-                    "sorter": 20,
-                    "image_alt": "",
-                    "section": "content",
-                    "image_title": "",
-                    "title": "PROPS",
-                    "type": "style_1_description",
-                    "actions": [],
-                    "content": "<ul><li><span style=\"color: rgb(51, 51, 51); font-size: 21px;\">Propriedades,properties ou resumidamente \"Props\", s\u00E3o informa\u00E7\u00F5es que podem ser passadas para um componente. Pode ser uma string, um n\u00FAmero, at\u00E9 mesmo uma fun\u00E7\u00E3o. Um dado importante \u00E9 que esse valor pode ser utilizado pelo pr\u00F3prio componente que a recebe. Primeiro, passamos o dado que desejamos passar ao componente definindo-o como um ATRIBUTO, onde o componente \u00E9 utilizado.Tornando esse componente din\u00E2mico que recebe as propriedades do elemento pai.<\/span><br><\/li><\/ul>"
-                }]
+                "structure": [
+                    {
+                        "image": "",
+                        "uid": "4bcfe661-08ee-4f51-9bed-6b8d79a8222d",
+                        "image_max_width": "0",
+                        "sorter": 20,
+                        "image_alt": "",
+                        "section": "content",
+                        "image_title": "",
+                        "title": "PROPS",
+                        "type": "style_1_description",
+                        "actions": [],
+                        "content": "<ul><li><span style=\"color: rgb(51, 51, 51); font-size: 21px;\">Propriedades,properties ou resumidamente \"Props\", s\u00E3o informa\u00E7\u00F5es que podem ser passadas para um componente. Pode ser uma string, um n\u00FAmero, at\u00E9 mesmo uma fun\u00E7\u00E3o. Um dado importante \u00E9 que esse valor pode ser utilizado pelo pr\u00F3prio componente que a recebe. Primeiro, passamos o dado que desejamos passar ao componente definindo-o como um ATRIBUTO, onde o componente \u00E9 utilizado.Tornando esse componente din\u00E2mico que recebe as propriedades do elemento pai.<\/span><br><\/li><\/ul>"
+                    },
+                    {
+                        "image": "",
+                        "uid": "da1d5b2f-2e11-41fa-9a81-d14e73fd2b90",
+                        "sorter": 40,
+                        "image_alt": "",
+                        "section": "listing",
+                        "image_title": "",
+                        "title": "V\u00EDdeos sobre props",
+                        "type": "button_link_video",
+                        "items": [{
+                            "image": "",
+                            "uid": "3d875401-97fa-4d44-997d-e7085c4d6096",
+                            "sorter": 20,
+                            "image_alt": "",
+                            "link": "https://youtu.be/TlD49IAEPmc?t=141",
+                            "section": "listing_item",
+                            "image_title": "",
+                            "title": "O que \u00E9 PROPS",
+                            "content": "Neste v\u00EDdeo ser\u00E1 abordado rapidamente o conceito de PROPS"
+                        }],
+                        "content": "<p>Explica\u00E7\u00E3o Sobre a liste de v\u00EDdeos sobre props<\/p>"
+                    }
+                ]
             },
             {
                 "parent": "/ start",
