@@ -111,10 +111,15 @@ para iniciar o servidor de frontend.
 número de (*) definine a prioridade quanto mais maior a prioridade.
 
 
+--Concluída-- Criar funcionalidade à medida `Intruduzir botões com link nas páginas desejadas` [RESOLVIDO]
 
 *Assuntos a incluir no nível 0 `CSS, STATE, HTML`
 *Assuntos à incluir no nível 1 `LESS, ANTD, Variáveis Globais`
-***Criar funcionalidade à medida `Intruduzir botões com link nas páginas desejadas`
+
+
+***Criar os botões restantes e passar os conteúdos do dashboard para as páginas correspondentes.
+***Analizar o que é mais viável criar os componentes dos botões ou deixar no less do "listing>item".
+***Organizar o layout dos Botões em suas respectivas telas.
 
 
 
