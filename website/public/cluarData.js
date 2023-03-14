@@ -193,17 +193,52 @@ window.cluarData = {
                         "image_title": "",
                         "title": "V\u00EDdeos sobre props",
                         "type": "button_link_video_pt",
-                        "items": [{
-                            "image": "",
-                            "uid": "3d875401-97fa-4d44-997d-e7085c4d6096",
-                            "sorter": 40,
-                            "image_alt": "",
-                            "link": "https://youtu.be/TlD49IAEPmc?t=141",
-                            "section": "listing_item",
-                            "image_title": "",
-                            "title": "O que \u00E9 PROPS",
-                            "content": "Neste v\u00EDdeo ser\u00E1 abordado rapidamente o conceito de PROPS"
-                        }],
+                        "items": [
+                            {
+                                "image": "",
+                                "uid": "3d875401-97fa-4d44-997d-e7085c4d6096",
+                                "sorter": 40,
+                                "image_alt": "",
+                                "link": "https://youtu.be/TlD49IAEPmc?t=141",
+                                "section": "listing_item",
+                                "image_title": "",
+                                "title": "O que \u00E9 PROPS",
+                                "content": "Neste v\u00EDdeo ser\u00E1 abordado rapidamente o conceito de PROPS."
+                            },
+                            {
+                                "image": "",
+                                "uid": "81d1300c-9897-489a-8635-26b61c91e6d5",
+                                "sorter": 60,
+                                "image_alt": "",
+                                "link": "https://youtu.be/CsCP8ZFySg4",
+                                "section": "listing_item",
+                                "image_title": "",
+                                "title": "Ultiizando PROPS",
+                                "content": "<p>Enviar propriedades ultilizando componentes com PROPS.<\/p>"
+                            },
+                            {
+                                "image": "",
+                                "uid": "b57c6e3b-e70e-450a-b688-d1af6cac195c",
+                                "sorter": 80,
+                                "image_alt": "",
+                                "link": "https://youtu.be/-B78d9052zY",
+                                "section": "listing_item",
+                                "image_title": "",
+                                "title": "V\u00EDdeo extra sobre PROPS",
+                                "content": "<p>Utilizando PROPS.<\/p>"
+                            },
+                            {
+                                "image": "",
+                                "uid": "f49f9a93-745d-4ef4-969d-fa924becc96c",
+                                "sorter": 100,
+                                "image_alt": "",
+                                "link": "https://felipegalvao.com.br/pt/blog/learn-react-components-state-and-props/",
+                                "section": "listing_item",
+                                "image_title": "",
+                                "title": "Artigo sobre PROPS",
+                                "content": "<p>Explana\u00E7\u00E3o te\u00F3rica.<\/p>"
+                            }
+                        ],
                         "content": "<p>Explica\u00E7\u00E3o Sobre a liste de v\u00EDdeos sobre props<\/p>"
                     }
                 ]
@@ -419,17 +454,52 @@ window.cluarData = {
                         "image_title": "",
                         "title": "Videos about props",
                         "type": "button_link_video_en",
-                        "items": [{
-                            "image": "",
-                            "uid": "f2c50761-904a-45f9-a3fb-f35970a886c0",
-                            "sorter": 40,
-                            "image_alt": "",
-                            "link": "https://youtu.be/TlD49IAEPmc?t=141",
-                            "section": "listing_item",
-                            "image_title": "",
-                            "title": "What is PROPS",
-                            "content": ""
-                        }],
+                        "items": [
+                            {
+                                "image": "",
+                                "uid": "f2c50761-904a-45f9-a3fb-f35970a886c0",
+                                "sorter": 40,
+                                "image_alt": "",
+                                "link": "https://youtu.be/KvapOdsFK5A?t=17",
+                                "section": "listing_item",
+                                "image_title": "",
+                                "title": "What is PROPS",
+                                "content": "What is PROPS in react?"
+                            },
+                            {
+                                "image": "",
+                                "uid": "678123db-6df2-41eb-bb75-cfe5d75bf218",
+                                "sorter": 60,
+                                "image_alt": "",
+                                "link": "https://youtu.be/M_Fmvs5CiDo",
+                                "section": "listing_item",
+                                "image_title": "",
+                                "title": "Using PROPS",
+                                "content": "Passing data between Components"
+                            },
+                            {
+                                "image": "",
+                                "uid": "659a7c88-224c-4100-afb7-047b0baf68e0",
+                                "sorter": 80,
+                                "image_alt": "",
+                                "link": "https://youtu.be/0_6YYR3HRlw",
+                                "section": "listing_item",
+                                "image_title": "",
+                                "title": "Extra video about PROPS",
+                                "content": "How to pass React PROPS to components."
+                            },
+                            {
+                                "image": "",
+                                "uid": "340e349f-ed0b-4052-b989-0f8b63615011",
+                                "sorter": 100,
+                                "image_alt": "",
+                                "link": "https://reactjs.org/docs/components-and-props.html",
+                                "section": "listing_item",
+                                "image_title": "",
+                                "title": "Article about PROPS",
+                                "content": "Theoretical explanation."
+                            }
+                        ],
                         "content": ""
                     }
                 ]
